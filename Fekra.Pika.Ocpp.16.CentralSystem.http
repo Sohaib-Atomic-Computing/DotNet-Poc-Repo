@@ -1,0 +1,6 @@
+@Fekra.Pika.Ocpp._16.CentralSystem_HostAddress = http://localhost:5275
+
+GET {{Fekra.Pika.Ocpp._16.CentralSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Fekra.Pika.Ocpp.16.CentralSystem.props" />
+</Project>
