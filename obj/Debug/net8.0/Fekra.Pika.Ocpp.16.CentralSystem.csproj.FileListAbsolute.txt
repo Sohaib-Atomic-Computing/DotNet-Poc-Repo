@@ -62,3 +62,4 @@ C:\Users\sohai\source\repos\Custom\Fekra.Pika.Ocpp.16.CentralSystem\obj\Debug\ne
 C:\Users\sohai\source\repos\Custom\Fekra.Pika.Ocpp.16.CentralSystem\obj\Debug\net8.0\Fekra.Pika.Ocpp.16.CentralSystem.pdb
 C:\Users\sohai\source\repos\Custom\Fekra.Pika.Ocpp.16.CentralSystem\obj\Debug\net8.0\Fekra.Pika.Ocpp.16.CentralSystem.genruntimeconfig.cache
 C:\Users\sohai\source\repos\Custom\Fekra.Pika.Ocpp.16.CentralSystem\obj\Debug\net8.0\ref\Fekra.Pika.Ocpp.16.CentralSystem.dll
+C:\Users\sohai\source\repos\Custom\Fekra.Pika.Ocpp.16.CentralSystem\obj\Debug\net8.0\Fekra.Pika.Ocpp.16.CentralSystem.sourcelink.json
