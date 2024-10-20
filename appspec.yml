@@ -10,7 +10,7 @@ files:
     destination: C:\Custom\Fekra.Pika.Ocpp.16.CentralSystem
 
   # Deploy the bin folder to Fekra.Pika.Api directory on the server
-  - source: /bin/**
+  - source: bin/**
     destination: C:\Custom\Fekra.Pika.Ocpp.16.CentralSystem\Fekra.Pika.Api\bin
 
 hooks:
