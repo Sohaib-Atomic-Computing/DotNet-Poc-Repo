@@ -1,12 +1,22 @@
 version: 0.0
 os: windows
 files:
-  - source: \
+  # Deploy the three scripts to the root directory
+  - source: appspec.yml
     destination: C:\Custom\Fekra.Pika.Ocpp.16.CentralSystem
+  - source: before-install.ps1
+    destination: C:\Custom\Fekra.Pika.Ocpp.16.CentralSystem
+  - source: after-install.ps1
+    destination: C:\Custom\Fekra.Pika.Ocpp.16.CentralSystem
+
+  # Deploy the bin folder to Fekra.Pika.Api directory on the server
+  - source: /bin/**
+    destination: C:\Custom\Fekra.Pika.Ocpp.16.CentralSystem\Fekra.Pika.Api\bin
+
 hooks:
   BeforeInstall:
-  - location: \before-install.ps1
-    timeout: 900
+    - location: \before-install.ps1
+      timeout: 900
   AfterInstall:
-  - location: \after-install.ps1
-    timeout: 900
+    - location: \after-install.ps1
+      timeout: 900
