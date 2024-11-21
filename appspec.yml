@@ -20,5 +20,5 @@ hooks:
   AfterInstall:
     - location: \after-install.ps1
       timeout: 900
-  ApplicationStop:
+  DownloadBundle:
     - location: /dev/null
